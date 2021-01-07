@@ -217,14 +217,14 @@ public class UtilText {
 	private static Map<String, String> americanEnglishConversions = Util.newHashMapOfValues(
 			// -our to -or:
 			new Value<>("armour", "armor"),
-			new Value<>("armoury", "armoury"),
+			new Value<>("armoury", "armory"),
 			new Value<>("behaviour", "behavior"),
 			new Value<>("candour", "candor"),
 			new Value<>("clamour", "clamor"),
 			new Value<>("colour", "color"),
 			new Value<>("demeanour", "demeanor"),
 			new Value<>("endeavour", "endeavor"),
-			new Value<>("favourite", "favourite"),
+			new Value<>("favourite", "favorite"), /* new Value<>("favour", "favor"), */
 			new Value<>("flavour", "flavor"),
 			new Value<>("glamour", "glamor"),
 			new Value<>("harbour", "harbor"),
@@ -238,7 +238,7 @@ public class UtilText {
 			new Value<>("rumour", "rumor"),
 			new Value<>("saviour", "savior"),
 			new Value<>("savour", "savor"),
-			new Value<>("savoury", "savoury"),
+			new Value<>("savoury", "savory"),
 			new Value<>("splendour", "splendor"),
 			new Value<>("valour", "valor"),
 			new Value<>("vapour", "vapor"),
@@ -349,7 +349,7 @@ public class UtilText {
 			new Value<>("practise", "practice"),
 
 			// other:
-			new Value<>("draught", "daft"),
+			new Value<>("draught", "draft"),
 			new Value<>("plough", "plow"),
 			new Value<>("tyre", "tire"),
 			new Value<>("mould", "mold"),
