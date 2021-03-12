@@ -1775,11 +1775,11 @@ public abstract class NPC extends GameCharacter implements XMLSaving {
 		Gender preferredGender = Gender.N_P_V_B_HERMAPHRODITE;
 		Map<Gender, Integer> desiredGenders = new HashMap<>();
 
-		// Magnifier and flag for increasing non-binary gender probabilities.
+		// Magnifier and flag for increasing non-binary sex/gender probabilities.
 		// 0 causes non-binary to be turned to 0, 1 is the default values,
 		// 2 and higher produce more non-binary and add androgynous gender
 		// around 7 the binary genders are as probable as non-binary, androgyn at half probability
-		int genderQueerness = 1;
+		int genderQueerness = 3;
 
 		switch(this.getSexualOrientation()) {
 			case AMBIPHILIC:
